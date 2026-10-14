@@ -1,0 +1,39 @@
+========================================
+        LINUX SYSTEM REPORT
+========================================
+Generated on: Wed Oct 14 07:46:52 AM EDT 2026
+
+1. HOSTNAME
+kali
+
+2. KERNEL VERSION
+6.12.13-amd64
+
+3. DISK USAGE
+Filesystem      Size  Used Avail Use% Mounted on
+udev            917M     0  917M   0% /dev
+tmpfs           197M  1.3M  196M   1% /run
+/dev/sda1        79G   15G   60G  20% /
+tmpfs           983M  4.0K  983M   1% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           983M   44K  983M   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           197M  124K  197M   1% /run/user/1000
+
+4. MEMORY USAGE
+               total        used        free      shared  buff/cache   available
+Mem:           1.9Gi       806Mi       591Mi        14Mi       752Mi       1.1Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+5. TOP RUNNING PROCESSES
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kali        8088  100  0.2   9484  4232 pts/0    R+   07:46   0:00 ps aux --sort=-%cpu
+root        1056  2.6  6.7 450472 135736 tty7    Ssl+ 07:34   0:20 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+kali        6846  0.6  0.3  13996  7664 pts/0    Ss   07:44   0:00 /usr/bin/zsh
+kali        1337  0.6  6.7 1223788 135280 ?      Sl   07:34   0:04 xfwm4
+kali        6840  0.4  3.3 728904 66844 ?        Sl   07:44   0:00 /usr/bin/qterminal
+
+========================================
+          END OF REPORT
+========================================
